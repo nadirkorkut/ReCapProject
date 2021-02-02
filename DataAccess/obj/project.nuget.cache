@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "5k2/OLUGOBuXP48/JG+Q99yxbftXz9kL74c6TYdsTKD/HR4NwZi/CgXUUY+uI0UvN4FTopuybMhkK232usYpmA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Nadir\\source\\repos\\ReCapProject\\DataAccess\\DataAccess.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
