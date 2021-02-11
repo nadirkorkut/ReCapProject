@@ -1,1 +1,1 @@
-# katmanlı mimari ile araç kiralama projesi
+# araç kiralama projesi
