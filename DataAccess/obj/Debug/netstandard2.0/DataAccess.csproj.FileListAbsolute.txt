@@ -10,3 +10,5 @@ C:\Users\Nadir\source\repos\ReCapProject\DataAccess\obj\Debug\netstandard2.0\Dat
 C:\Users\Nadir\source\repos\ReCapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CopyComplete
 C:\Users\Nadir\source\repos\ReCapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.dll
 C:\Users\Nadir\source\repos\ReCapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.pdb
+C:\Users\Nadir\source\repos\ReCapProject\DataAccess\bin\Debug\netstandard2.0\Core.dll
+C:\Users\Nadir\source\repos\ReCapProject\DataAccess\bin\Debug\netstandard2.0\Core.pdb
