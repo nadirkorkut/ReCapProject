@@ -9,11 +9,27 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
-            carManagerTest();
+            rentalManagerTest();
+            //carManagerTest();
             //colorManagerTest();
             //brandManagerTest();
 
 
+        }
+
+        private static void rentalManagerTest()
+        {
+            RentalManager rentalManager = new RentalManager(new EfRentalDal());
+
+            var result = rentalManager.GetRentalDetails();
+
+            if (result.Success)
+            {
+                foreach (var rental in result.Data)
+                {
+                    Console.WriteLine($" RentalID : {rental.RentalId}\n FirstName : {rental.FirstName}\n LastName : {rental.LastName}\n BrandName : {rental.BrandName}\n RentDate : {rental.RentDate}\n ReturnDate : {rental.ReturnDate}\n----------------------------------------- ");
+                }
+            }
         }
 
         private static void brandManagerTest()

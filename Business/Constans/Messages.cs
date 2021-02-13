@@ -17,5 +17,17 @@ namespace Business.Constans
         public static string ColorAdded = "Renk Eklendi!";
         public static string ColorDeleted = "Renk Silindi!";
         public static string ColorUpdated = "Renk Güncellendi!";
+        public static string UserAdded = "Kullanıcı Eklendi";
+        public static string UserDeleted = "Kullanıcı Silindi";
+        public static string UserUpdated = "Kullanıcı Güncellendi";
+        public static string CustomerAdded = "Müşteri Eklendi";
+        public static string CustomerDeleted = "Müşteri Silindi";
+        public static string CustomerUpdated = "Müşteri Güncellendi";
+        public static string RentalAdded = "Araba Kiralandı!";
+        public static string RentalErrorAdded = "Bu Araba Kiralanamaz!";
+        public static string RentalDeleted = "Araba Kiralama İşlemi Silindi!";
+        public static string RentalUpdated = "Araba Kiralama İşlemi Güncellendi!";
+
+
     }
 }
