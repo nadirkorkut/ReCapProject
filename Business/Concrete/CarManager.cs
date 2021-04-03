@@ -3,6 +3,7 @@ using Business.BusinessAspects.Autofac;
 using Business.Constans;
 using Business.ValidationRules;
 using Core.Aspects.Autofac.Caching;
+using Core.Aspects.Autofac.Performance;
 using Core.Aspects.Autofac.Validation;
 using Core.CrossCuttingConcerns.Validation;
 using Core.Utilities.Results;
@@ -13,6 +14,7 @@ using FluentValidation;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading;
 
 namespace Business.Concrete
 {
@@ -40,8 +42,10 @@ namespace Business.Concrete
         }
 
         [CacheAspect]
+        [PerformanceAspect(5)]
         public IDataResult<List<Car>> GetAll()
         {
+            Thread.Sleep(3000);
             return new SuccessDataResult<List<Car>>(_carDal.GetAll());
         }
 
@@ -63,6 +67,11 @@ namespace Business.Concrete
         public IDataResult<List<CarDetailDto>> GetCarDetails()
         {
             return new SuccessDataResult<List<CarDetailDto>>(_carDal.GetCarDetails());
+        }
+
+        public IResult TransactionalOperation(Car car)
+        {
+            throw new NotImplementedException();
         }
 
         public IResult Update(Car car)

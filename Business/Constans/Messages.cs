@@ -11,23 +11,37 @@ namespace Business.Constans
         public static string CarDeleted = "Araç Silindi!";
         public static string CarDeleteInvalid = "Silme işlemi geçersiz!";
         public static string CarUpdated = "Araç Güncellendi!";
+        
         public static string BrandAdded = "Marka Eklendi!";
         public static string BrandDeleted = "Marka Silindi!";
         public static string BrandUpdated = "Marka Güncellendi!";
+       
         public static string ColorAdded = "Renk Eklendi!";
         public static string ColorDeleted = "Renk Silindi!";
         public static string ColorUpdated = "Renk Güncellendi!";
+        
         public static string UserAdded = "Kullanıcı Eklendi";
         public static string UserDeleted = "Kullanıcı Silindi";
         public static string UserUpdated = "Kullanıcı Güncellendi";
+       
         public static string CustomerAdded = "Müşteri Eklendi";
         public static string CustomerDeleted = "Müşteri Silindi";
         public static string CustomerUpdated = "Müşteri Güncellendi";
+       
         public static string RentalAdded = "Araba Kiralandı!";
         public static string RentalErrorAdded = "Bu Araba Kiralanamaz!";
         public static string RentalDeleted = "Araba Kiralama İşlemi Silindi!";
         public static string RentalUpdated = "Araba Kiralama İşlemi Güncellendi!";
+        
         public static string CarImageLimitExceeded="Araç için resim limiti aşıldı";
+        
         public static string AuthorizationDenied = "Yetkiniz Yok";
+
+        public static string UserNotFound = "Kullanıcı bulunamadı";
+        public static string PasswordError = "Şifre hatalı";
+        public static string SuccessfulLogin = "Sisteme giriş başarılı";
+        public static string UserAlreadyExists = "Bu kullanıcı zaten mevcut";
+        public static string UserRegistered = "Kullanıcı başarıyla kaydedildi";
+        public static string AccessTokenCreated = "Access token başarıyla oluşturuldu";
     }
 }
