@@ -28,5 +28,6 @@ namespace Business.Constans
         public static string RentalDeleted = "Araba Kiralama İşlemi Silindi!";
         public static string RentalUpdated = "Araba Kiralama İşlemi Güncellendi!";
         public static string CarImageLimitExceeded="Araç için resim limiti aşıldı";
+        public static string AuthorizationDenied = "Yetkiniz Yok";
     }
 }
